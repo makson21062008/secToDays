@@ -7,5 +7,5 @@ def convert(seconds):
     seconds %=60
     print(f'{days}:{hours}:{minutes}:{seconds}')
 
-sec = int(input())
+sec = int(input('введите кол-во секунд'))
 convert(sec)
